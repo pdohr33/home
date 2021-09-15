@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "pdohr33", //i.e."johnDoe12Gh"
   reposLength: 4,
   specificRepos: [],
 };
@@ -97,26 +97,26 @@ const leadership = {
 
 // SKILLS SECTION
 const skills = {
-  show: False,
+  show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Incident Response", value: 95 },
+    { name: "Digital Forensics", value: 95 },
+    { name: "Malware Analysis", value: 85 },
+    { name: "Pentration Testing", value: 75 },
+    { name: "Application Security", value: 90 },
+    { name: "Threat Hunting", value: 95 },
+    { name: "Python", value: 75 },
+    { name: "Powerhsell", value: 60 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Positivity", value: 95 },
+    { name: "Adaptability", value: 95 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Empathy", value: 850 },
+    { name: "Organization", value: 100 },
     { name: "Creativity", value: 90 },
   ],
 };
@@ -131,18 +131,38 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Threat Hunt Lead',// Here Add Company Name
+      companylogo: require('../assets/img/paychex.png'),
+      date: 'March 2020 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Penetration Test Engineer',
+      companylogo: require('../assets/img/paychex.png'),
+      date: 'June 2019 – March 2020',
+    },
+	{
+      role: 'Security Investigation Unit: Specialist II',
+      companylogo: require('../assets/img/paychex.png'),
+      date: 'October 2017 – June 2019',
+    },
+	{
+      role: 'Security Investigation Unit: Specialist I',
+      companylogo: require('../assets/img/paychex.png'),
+      date: 'October 2015 – October 2017',
+    },
+	{
+      role: 'Information System Security Officer',
+      companylogo: require('../assets/img/LL.png'),
+      date: 'June 2014 – October 2015',
+    },
+	{
+      role: 'Technical Researcher',
+      companylogo: require('../assets/img/bs.png'),
+      date: 'November 2013 – April 2014',
     },
   ]
 }
