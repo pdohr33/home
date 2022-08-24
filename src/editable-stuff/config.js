@@ -135,11 +135,16 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
+      role: 'Enterprise Security Fusion Center Manager',// Here Add Company Name
+      companylogo: require('../assets/img/paychex.png'),
+      date: 'November 2021 - Present',
+    },
+	  {
       role: 'Threat Hunt Lead',// Here Add Company Name
       companylogo: require('../assets/img/paychex.png'),
-      date: 'March 2020 – Present',
+      date: 'March 2020 – November 2021',
     },
-    {
+	  {
       role: 'Penetration Test Engineer',
       companylogo: require('../assets/img/paychex.png'),
       date: 'June 2019 – March 2020',
