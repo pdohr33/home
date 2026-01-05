@@ -55,7 +55,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is Peter Dohr. I am a Passionate Information Security Professional with experience in Threat Hunting, Application Security, Malware Analysis, Incident Response, Digital Forensics, Vulnerability Assessment, and Penetration testing.",
-  resume: "https://docs.google.com/document/d/1FD3DeXxYU7x8wXewe1YpZLcU-VMTzpdd/edit?usp=sharing&ouid=113331349913830814727&rtpof=true&sd=true",
+  resume: "https://docs.google.com/document/d/1xTNqb3ucdcO0rfKa7FgAWIFkt9x31V9N2E46GQubL80/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
